@@ -107,8 +107,7 @@ estimated from OC Transpo Transit Committee meeting reports (January 2025 –
 February 2026) and cross-referenced with the Bus Service Delivery Action Plan.
 
 **Note on fare history 2021–2023:**
-Figures estimated based on reported annual inflationary adjustments.
-2024–2026 values verified directly from octranspo.com fare pages.
+Verified using historical OC Transpo price schedules and City of Ottawa budget archives.
 
 ---
 
@@ -127,14 +126,13 @@ Figures estimated based on reported annual inflationary adjustments.
 
 ## 💡 What I Learned
 
-- How to load and navigate a multi-sheet Excel file with `pd.ExcelFile` and `sheet_names`
-- How to clean DataFrames with duplicate column headers using `.loc[:, ~df.columns.duplicated()]`
-- How to parse non-standard month strings like `'Jan 25'` into sortable datetime objects
-- How to combine open data sources with manually verified data while keeping a clear audit trail
-- How to export individual panels from a multi-axis Matplotlib figure using `get_tightbbox`
-- Why reported service delivery percentages can be misleading when proactive cancellations are pre-removed from the denominator - always read the methodology notes behind the numbers
-- How to apply data storytelling frameworks (Time Data Story, PGAI) to structure analysis around a clear insight rather than just a collection of charts
-
+- How to load and navigate a multi-sheet Excel file with `pd.ExcelFile` and `sheet_names`.
+- How to clean DataFrames with duplicate column headers using `.loc[:, ~df.columns.duplicated()]`.
+- How to parse non-standard month strings like `'Jan 25'` into sortable datetime objects.
+- How to combine open data sources with manually verified data while keeping a clear audit trail.
+- How to export individual panels from a multi-axis Matplotlib figure using `get_tightbbox`.
+- How 'denominator management' (proactive cancellations) can artificially stabilize service delivery percentages while the actual passenger experience declines.
+- How to apply data storytelling frameworks (Time Data Story, PGAI) to structure analysis around a clear insight rather than just a collection of charts.
 ---
 
 ## 🔗 Connect
